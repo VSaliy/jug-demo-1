@@ -26,9 +26,6 @@ import org.springframework.context.annotation.Import;
 @EnableAutoConfiguration
 public class Main extends SpringBootServletInitializer {
 
-	public static final String QUICK_PROFILE = "Quick";
-	public static final String REST_PROFILE = "REST";
-
 	/**
 	 * When running as a war, this class is picked up as the Servlet
 	 * Initialiser. You must override this abstract method to tell it what
