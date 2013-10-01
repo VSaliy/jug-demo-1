@@ -1,4 +1,7 @@
 *.class
+target/
+.~lock.*
+.DS_Store
 
 # Package Files #
 *.jar
