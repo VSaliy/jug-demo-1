@@ -39,9 +39,7 @@ public class SampleController {
 	 * Tomcat by default, running in embedded mode.
 	 * <p>
 	 * As it stands this application won't run as a traditional war file because
-	 * it has no servlet configuration - see the use of
-	 * <tt>SpringBootServletInitializer</tt> in <tt>Main</tt> class of
-	 * <tt>demo2</tt>.
+	 * it has no servlet configuration - see {@link Main} instead.
 	 * 
 	 * @param args
 	 * @throws Exception
